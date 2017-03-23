@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Chathura Colombage"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars2.githubusercontent.com/u/376621"
   bio              : "I am an amazing person."
   location         :
   email            :
