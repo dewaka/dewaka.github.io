@@ -38,5 +38,4 @@ to use is as follows now:
 
 [libsecret](https://wiki.gnome.org/Projects/Libsecret) provides a unified library for accessing keyrings on Linux
 platforms, and this is the setting to use if you have gnome-keyring as your
-keyring on Fedora. Arch Wiki also shows this configuration as of this writing
-- [GNome Keyring - Git Integration](https://wiki.archlinux.org/index.php/GNOME/Keyring#Git_integration).
+keyring on Fedora. Arch Wiki also shows this configuration as of this writing - [GNome Keyring - Git Integration](https://wiki.archlinux.org/index.php/GNOME/Keyring#Git_integration).
