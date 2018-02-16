@@ -1,6 +1,6 @@
 ---
 title: "Stoicism from a Buddhist Perspective"
-last_modified_at: 2018-02-14
+last_modified_at: 2018-02-18
 tags:
   - philosophy
   - buddhism
@@ -65,3 +65,8 @@ There are a couple of things which makes it difficult to follow and understand
 Buddhism; it has a vast cannon, its primary focus is on ending the suffering
 through Nirvana and that's an abstract concept which is difficult to grasp for a
 layperson and which is even harder to follow.
+
+- Is Buddhism too bitter a pill to swallow?
+- What advantages can come out from following Buddhism compared to Stoicism?
+  Buddhism offers a more structured approach to personal development through
+  meditation.
