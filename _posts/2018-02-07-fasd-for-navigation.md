@@ -1,5 +1,6 @@
 ---
 title: "Using Fasd for Command Line Navigation"
+comments: true
 tags:
   - linux
   - osx
