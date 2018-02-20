@@ -1,15 +1,14 @@
 ---
-title: "Power of Vim Global Commands"
+title: "Vim Global Commands"
 last_modified_at: 2018-02-20
 tags:
   - vim
 ---
 
 Global command<sup>[1](#vim-globals)</sup> is a very powerful, and a little
-under-utilised command from my personal usage.
-
-Global command offers a powerful, composable alternative to macros. I think it
-is best explained through a couple of use case examples, as follows.
+under-utilised command from my personal usage. Global command offers a powerful,
+composable alternative to macros. I think it is best explained through a couple
+of use case examples, as follows.
 
 # Use cases
 
@@ -85,6 +84,9 @@ the following `v` command gets rid of all list items *not* matching even style.
 ```
 :1,4v/even/d
 ```
+
+There are many more uses of global commands worth knowing about given in the Vim
+wiki<sup>[1](#vim-globals)</sup>.
 
 # Resources
 
