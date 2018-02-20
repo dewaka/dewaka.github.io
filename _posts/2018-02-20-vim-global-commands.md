@@ -35,7 +35,7 @@ the price of the items by 100 each. There are couple of ways to do this in Vim.
   this task, however it is not practical esp. if the file is a large one.
 - Use Vim macros - this can be far more efficient than the editing manually.
   Vim macros are quite powerful and you can explicitly do that.
-- Use multi-cursors<sup>[2](#vim-multi-cursor)</sup> - this is also a powerful
+- Use multi-cursors<sup>[2](#vim-multi-cursors)</sup> - this is also a powerful
   option, might be more familiar to power users of Sublime Text, for example.
 - Use a global command - see below!
 
@@ -68,9 +68,9 @@ General structure of a global command is `:<range>g/<pattern>/<command>`.
 *Note* - For Emacs users out there who might be using evil mode for editing,
 there is good news and bad news. Good news is that evil mode has support for
 global commands, but the bad news is that without some extensions above example
-command would not work for incrementing numbers. In evil mode `Ctrl+a` in normal
-mode gets the cursor to the start of the line, *not* increment numbers as in
-Vim.
+command would not work for incrementing numbers. In evil mode, `Ctrl+a` in
+normal mode, gets the cursor to the start of the line, *not* incrementing
+numbers as in Vim.
 
 See [evil numbers](https://github.com/cofi/evil-numbers) for similar functionality in
 Emacs.
