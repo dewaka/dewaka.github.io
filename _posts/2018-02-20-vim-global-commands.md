@@ -125,8 +125,8 @@ Resulting in following where only the even styled list items are preserved.
 ```
 0: <ul>
 1:  <li style="even">Coffee</li>
-3:  <li style="even">Milk</li>
-5: </ul>
+2:  <li style="even">Milk</li>
+3: </ul>
 ```
 
 There are many more uses of global commands worth knowing about given in the Vim
