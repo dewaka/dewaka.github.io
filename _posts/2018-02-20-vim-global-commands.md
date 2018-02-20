@@ -90,6 +90,6 @@ wiki<sup>[1](#vim-globals)</sup>.
 
 # Resources
 
-<a name="vim-globals">1</a>: [Power of g](http://vim.wikia.com/wiki/Power_of_g)
-<a name="vim-multi-cursors">2</a>[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
-<a name="vim-inc-dec">3</a>: [Increasing or decreasing numbers](http://vim.wikia.com/wiki/Increasing_or_decreasing_numbers)
+- <a name="vim-globals">1</a>: [Power of g](http://vim.wikia.com/wiki/Power_of_g)
+- <a name="vim-multi-cursors">2</a>[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+- <a name="vim-inc-dec">3</a>: [Increasing or decreasing numbers](http://vim.wikia.com/wiki/Increasing_or_decreasing_numbers)
