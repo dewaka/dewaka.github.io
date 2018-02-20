@@ -57,6 +57,26 @@ command? Global command provides exactly, that capability as shown below.
 :g/price/normal 100^A
 ```
 
+Now all the prices in the file should be incremented by 100, as follows.
+
+```
+<inventory>
+  <item>
+    <name>Coffee</name>
+    <price>330</price>
+  </item>
+  <item>
+    <name>Sugar</name>
+    <price>380</price>
+  </item>
+  <item>
+    <name>Tea</name>
+    <price>220</price>
+  </item>
+  ...
+</inventory>
+```
+
 *Note* - we need to input Ctrl+A on the Vim command line, and to do that we need
 to first press Ctrl+V followed by Ctrl+A.
 
@@ -98,6 +118,15 @@ the following `v` command gets rid of all list items *not* matching even style.
 
 ```
 :1,4v/even/d
+```
+
+Resulting in following where only the even styled list items are preserved.
+
+```
+0: <ul>
+1:  <li style="even">Coffee</li>
+3:  <li style="even">Milk</li>
+5: </ul>
 ```
 
 There are many more uses of global commands worth knowing about given in the Vim
