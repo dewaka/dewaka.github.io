@@ -18,12 +18,16 @@ Usefulness of global commands is best explained through some practical examples.
 ```xml
 <inventory>
   <item>
-    <name>Cola</name>
-    <price>234</price>
+    <name>Coffee</name>
+    <price>230</price>
   </item>
   <item>
-    <name>Cola</name>
-    <price>234</price>
+    <name>Sugar</name>
+    <price>280</price>
+  </item>
+  <item>
+    <name>Tea</name>
+    <price>120</price>
   </item>
   ...
 </inventory>
@@ -74,7 +78,7 @@ numbers as in Vim.
 
 See [evil numbers](https://github.com/cofi/evil-numbers) for similar functionality in
 Emacs.
-  
+
 ## Deleting matching lines
 
 It is useful to learn the complement of `g` command, `v` as well. `v` runs the
