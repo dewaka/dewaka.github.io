@@ -3,6 +3,7 @@ title: "Linux Desktop Automation"
 last_modified_at: 2018-02-17
 tags:
   - linux
+  - automation
 ---
 
 # Background

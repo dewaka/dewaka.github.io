@@ -70,3 +70,11 @@ layperson and which is even harder to follow.
 - What advantages can come out from following Buddhism compared to Stoicism?
   Buddhism offers a more structured approach to personal development through
   meditation.
+
+There are a lot of parallels between core Stoic teachings and the Theravada
+Buddhist concept of 'Eight Worldly Conditions'. This actually maps to learned
+_indifference_ of the Stoics almost one to one.
+
+- http://buddhistpage.com/eight-worldly-conditions/
+- https://www.accesstoinsight.org/tipitaka/an/an08/an08.006.than.html
+- http://www.nirvanapeace.com/english/buddhism-philosophy/423
