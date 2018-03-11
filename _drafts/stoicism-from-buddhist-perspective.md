@@ -78,3 +78,7 @@ _indifference_ of the Stoics almost one to one.
 - http://buddhistpage.com/eight-worldly-conditions/
 - https://www.accesstoinsight.org/tipitaka/an/an08/an08.006.than.html
 - http://www.nirvanapeace.com/english/buddhism-philosophy/423
+
+Thoughts about death can be quite different. From a Theravadic perspective
+self-harm, concisously is considered a grave sin. This would be no different
+than, an in fact worse than harming some other life.
