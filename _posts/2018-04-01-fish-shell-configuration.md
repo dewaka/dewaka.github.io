@@ -12,6 +12,13 @@ I have been eyeing to change the default shell from Zsh to Fish shell for a
 while now, but never made the transition because I missed a couple of power
 tools and configurations which didn't work in the quite the same way on fish.
 
+After giving fish shell configuration another go, I found that I could
+configure fish to match the functionality of my current zsh configuration with
+some new features and niceties which comes with a [_modern shell_](https://fishshell.com/).
+
+This post is about how I went about configuring fish shell for my usage
+patterns.
+
 ## Installing and managing fish plugins
 
 Fish shell comes with powerful autocompletion and other conveniences out of the
@@ -62,7 +69,7 @@ There are couple of differences worth noting,
 ## Integrating fasd
 
 I have written about integrating fasd with respect to zsh integration -
-[Using Fasd for Command Line Navigation]({% post_url 2018-02-07-fasd-for-navigation %}). 
+[Using Fasd for Command Line Navigation]({% post_url 2018-02-07-fasd-for-navigation %}).
 Fasd works in the same way with fish shell as well.
 
 Installing [fish fasd](https://github.com/fishgretel/fasd) plugin is pretty easy -
@@ -71,7 +78,7 @@ Installing [fish fasd](https://github.com/fishgretel/fasd) plugin is pretty easy
 With fzf we can make directory switching even more awesome. Default behavioiur
 for `d` command which is provided by fasd does not give ability to filter
 output if there are multiple matches. We can utilise fzf to get that
-behaviour with the following function.  
+behaviour with the following function.
 
 ```fish
 # Function to filter through recently used directories
@@ -102,7 +109,7 @@ fisher as follows - `fisher rafaelrinaldi/pure`
 # Some thoughts
 
 - I wish there was a similar function to get background/foreground toggle
-  function in fish. After a bit of research, I found that as of now it is 
+  function in fish. After a bit of research, I found that as of now it is
   [not possible](https://stackoverflow.com/questions/30662735/how-to-map-ctrl-z-to-fg-in-fish)
   to assign `Ctrl+Z` for this functionality.
 
