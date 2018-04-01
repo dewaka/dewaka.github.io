@@ -23,9 +23,9 @@ fish seems to be,
 - [fisherman](https://github.com/fisherman/fisherman)
 
 Of the two `fisherman` seems to be more minimalist, focusing on providing a
-package manager for fish plugins. Thus after installing fisherman you are
+package manager for fish plugins. Thus after installing `fisherman` you are
 required to install plugins of your choosing. It also seems that the impact on
-shell startup time with fisherman is lower than with oh-my-fish, but this is
+shell startup time with `fisherman` is lower than with `oh-my-fish`, but this is
 not something I have benchmarked myself.
 
 As of this writing, I have installed following plugins with `fisherman`, but if
@@ -61,12 +61,12 @@ There are couple of differences worth noting,
 
 ## Integrating fasd
 
-I have written about integrating Fasd.
+I have written about integrating fasd with respect to zsh integration -
+[Using Fasd for Command Line Navigation]({% post_url 2018-02-07-fasd-for-navigation %}). 
+Fasd works in the same way with fish shell as well.
 
-<!-- TODO: Link fasd post for zsh -->
-
-Installing [fish fasd](https://github.com/fishgretel/fasd) is pretty easy -
-`fisher gretel/fasd`.
+Installing [fish fasd](https://github.com/fishgretel/fasd) plugin is pretty easy -
+`fisher gretel/fasd`. Please follow instructions to install `fasd` for your OS.
 
 With fzf we can make directory switching even more awesome. Default behavioiur
 for `d` command which is provided by fasd does not give ability to filter
@@ -97,9 +97,19 @@ fisher as follows - `fisher rafaelrinaldi/pure`
 
 - Update plugins - `fisher update`
 - Remove a plugin - `fisher rm <plugin name>`
+- If you want to get rid of `fisherman` plugin manager itself - `fisher self-uninstall`
 
 # Some thoughts
 
 - I wish there was a similar function to get background/foreground toggle
-  function in fish.
-- Zsh completion is quite nice, but fish has even better completion!
+  function in fish. After a bit of research, I found that as of now it is 
+  [not possible](https://stackoverflow.com/questions/30662735/how-to-map-ctrl-z-to-fg-in-fish)
+  to assign `Ctrl+Z` for this functionality.
+
+- Zsh completion is quite nice, but fish has even better completion! I quite
+  like how fish offers completions based on history and they are most of the
+  time the right one as well which I wanted to run.
+
+- Fish shell seems to start a bit faster than zsh for me, which could be due to
+  my possibly bloated configuration! This is not a major win, but fish shell
+  feels a bit snappier.
