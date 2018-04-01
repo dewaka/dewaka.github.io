@@ -38,6 +38,12 @@ not something I have benchmarked myself.
 As of this writing, I have installed following plugins with `fisherman`, but if
 you choose `oh-my-fish` the same plugins are available as well.
 
+### Managing plugins with fisherman
+
+- Update plugins - `fisher update`
+- Remove a plugin - `fisher rm <plugin name>`
+- If you want to get rid of `fisherman` plugin manager itself - `fisher self-uninstall`
+
 ## Integrating fzf
 
 Installing [fish fzf](https://github.com/fisherman/fzf) is pretty easy -
@@ -100,23 +106,18 @@ alias j   "zd"
 `pure` shell prompt in zsh for the fish shell. This can be installed with
 fisher as follows - `fisher rafaelrinaldi/pure`
 
-# Managing plugins with fisherman
-
-- Update plugins - `fisher update`
-- Remove a plugin - `fisher rm <plugin name>`
-- If you want to get rid of `fisherman` plugin manager itself - `fisher self-uninstall`
-
 # Some thoughts
 
-- I wish there was a similar function to get background/foreground toggle
-  function in fish. After a bit of research, I found that as of now it is
+- One thing I tried to port from my zsh config was backgrounding and
+  foregrounding of Vim in a terminal with the same key combination - `Ctrl+Z`.
+  After a bit of research, I found that, as of now it, is 
   [not possible](https://stackoverflow.com/questions/30662735/how-to-map-ctrl-z-to-fg-in-fish)
-  to assign `Ctrl+Z` for this functionality.
+  to assign `Ctrl+Z` for this functionality with the fish shell.
 
 - Zsh completion is quite nice, but fish has even better completion! I quite
   like how fish offers completions based on history and they are most of the
-  time the right one as well which I wanted to run.
+  time the right one as well which I want to run.
 
 - Fish shell seems to start a bit faster than zsh for me, which could be due to
-  my possibly bloated configuration! This is not a major win, but fish shell
-  feels a bit snappier.
+  my zsh configuration! This is not a major point, but fish shell feels a bit
+  snappier overall.
