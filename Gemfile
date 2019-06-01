@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.7.2'
+gem 'jekyll', '~> 3.8.5'
 
+gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
