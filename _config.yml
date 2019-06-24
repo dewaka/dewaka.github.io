@@ -136,6 +136,9 @@ author:
     - label: "Keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/dewaka"
+    - label: "Goodreads"
+      icon: "fab fa-fw fa-goodreads"
+      url: "https://goodreads.com/dewaka"
 
 
 # Site Footer
