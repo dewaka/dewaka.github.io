@@ -8,5 +8,10 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+  - title: "🏆 Projects"
+    url: /projects/
+  # - title: "📚 Bookshelf"
+  #   url: /bookshelf/
+  - title: "👨 About"
+    url: /about/
