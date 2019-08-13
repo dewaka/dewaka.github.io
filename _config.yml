@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" #  "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Chathura's Blog - Chathura Colombage"
+title                    : "dewaka.com"
 title_separator          : "-"
 name                     : "Chathura Colombage"
 description              : "My personal blog with ramblings about technology, philosophy, and pretty much anything I find interesting."
