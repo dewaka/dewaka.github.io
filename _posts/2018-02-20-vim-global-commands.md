@@ -1,6 +1,8 @@
 ---
 title: "Vim Global Commands"
 last_modified_at: 2018-02-20
+categories:
+  - blog
 tags:
   - vim
 ---

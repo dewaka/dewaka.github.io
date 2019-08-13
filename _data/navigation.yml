@@ -8,7 +8,8 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-
+  # - title: "📝 Blog"
+  #   url: /posts/
   - title: "🏆 Projects"
     url: /projects/
   # - title: "📚 Bookshelf"

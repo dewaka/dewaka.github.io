@@ -2,6 +2,8 @@
 title: "Customising IdeaVim"
 comments: true
 last_modified_at: 2019-07-27
+categories:
+  - blog
 tags:
   - vim
   - IntelliJ IDEA

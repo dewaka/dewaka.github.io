@@ -1,6 +1,8 @@
 ---
 title: "Linux - Git Credential Helpers"
 comments: true
+categories:
+  - blog
 tags:
   - linux
   - fedora

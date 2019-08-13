@@ -2,6 +2,8 @@
 title: "Configuring Fish Shell"
 comments: true
 last_modified_at: 2018-04-01
+categories:
+  - blog
 tags:
   - linux
   - osx
