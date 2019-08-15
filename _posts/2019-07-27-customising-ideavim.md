@@ -1,7 +1,7 @@
 ---
 title: "Customising IdeaVim"
 comments: true
-last_modified_at: 2019-07-27
+last_modified_at: 2019-08-15
 categories:
   - blog
 tags:
@@ -12,9 +12,12 @@ tags:
 
 # Vim in IntelliJ IDEA
 
-IDEA is one of the IDEs with relative good support for Vim with IdeaVim
-Plugin<sup>[2](#ideavimrc-gist)</sup>. I find that IntelliJ IDEA is a must have
-for Scala development. You can almost get best of both world's this way.
+IDEA is one of the IDEs with relatively good support for Vim with the IdeaVim
+Plugin<sup>[2](#ideavimrc-gist)</sup>. Even though one can come close to
+functionality offered by IntelliJ with either Vim or Emacs Plugins, I find that
+IntelliJ IDEA is a must have for Scala development, in my experience. However,
+with IdeaVim Plugin you can still get the best of both world's by leveraging
+your Vim editing muscle memory via IdeaVim plugin.
 
 IdeaVim can be customised in a similar way to Vim by editing a configuration
 file: `~/.ideavimrc`.
@@ -39,10 +42,11 @@ useful settings to bring the experience closer to full Vim capabilities.
   support<sup>[3](#vim-surround)</sup>.
 - ideajoin is a recent setting which emulates IntelliJ's builtin line join
   semantics when you use Vim commands to join lines, such as `J`.
-- Clipboard setting enables copying to system clipboard as well with the above
-  setting which is useful for copying code from IntelliJ with normal Yanking
-  commands to other applications. Thjs also removes the mismatch between native
-  Copy action and IdeaVim based yanking.
+- As with Vanilla Vim, by default, yanked text will *not* be put in to system
+  clipboard. However, it is quite handy to have consistent behaviour when it
+  comes to copying as if you didn't use IdeaVim in the first place. With
+  `clipboard+=unnamed` setting, text you copy within IDEA will also be copied to
+  the system clipboard.
 
 My settings are quite tailor made to my work setup, so it wouldn't be a good
 idea to copy them verbatim. I would suggest taking useful settings from there
