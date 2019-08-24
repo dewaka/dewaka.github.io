@@ -1,6 +1,6 @@
 ---
 title: "Personal Wiki"
-last_modified_at: 2019-08-22
+last_modified_at: 2019-08-24
 comments: true
 categories:
   - blog
@@ -75,7 +75,8 @@ has the option to link the book to a Github repository. Source for the new wiki
 is at [Personal knowledge wiki](https://github.com/dewaka/wiki) in my case.
 
 GitBook also enables serving via a custom sub-domain and it thus was quite
-painless integrate it with [this](https://dewaka.com) website.
+painless integrate it with [this](https://dewaka.com) website at
+[wiki.dewaka.com](https://wiki.dewaka.com).
 
 Even though I much prefer org-mode considering most of my writing is done via
 Emacs these days, I'm fine with Markdown format. In fact Markdown has much
