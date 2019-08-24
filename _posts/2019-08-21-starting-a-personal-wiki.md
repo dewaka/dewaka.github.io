@@ -75,7 +75,7 @@ has the option to link the book to a Github repository. Source for the new wiki
 is at [Personal knowledge wiki](https://github.com/dewaka/wiki) in my case.
 
 GitBook also enables serving via a custom sub-domain and it thus was quite
-painless integrate it with [this](https://dewaka.com) website at
+painless integrate it with [this](https://dewaka.com) domain at
 [wiki.dewaka.com](https://wiki.dewaka.com).
 
 Even though I much prefer org-mode considering most of my writing is done via
