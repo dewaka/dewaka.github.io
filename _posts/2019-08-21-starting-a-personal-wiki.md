@@ -1,6 +1,6 @@
 ---
 title: "Personal Wiki"
-last_modified_at: 2019-08-24
+last_modified_at: 2019-08-31
 comments: true
 categories:
   - blog
@@ -8,10 +8,6 @@ tags:
   - wiki
   - writing
 ---
-
-## Journaling Habit
-
-<!-- A bit of history on my personal habits when it comes to keeping notes. -->
 
 I have been keeping org-mode<sup>[1](#org-mode)</sup> notes on a daily basis for
 a couple of years now. I started keeping journal notes with Evernote around
