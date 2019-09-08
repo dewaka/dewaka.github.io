@@ -15,4 +15,4 @@ Public repositories can be found in,
 - [github.com/dewaka](https://github.com/dewaka) - this is where most publicly
   visible projects can be found at the moment.
 - [bitbucket.org/dewaka](https://bitbucket.org/dewaka) - I have lot of
-  repositories lying in Bitbucket, but most of them are not public. 
+  repositories laying in Bitbucket, but most of them are not public.

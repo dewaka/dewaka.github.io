@@ -24,3 +24,11 @@ to write semi-regularly about random things which happens to interest me.
 You an download an up to date resume from here - [resume]({{"/assets/pageassets/resume/resume.pdf" | absolute_url }}). 
 Last updated 30th, July 2019.
 
+## Blog
+
+This blog is hosted through [netlify](https://www.netlify.com/)<sup>[*](#no-affiliation)</sup> from a public
+Github [repository](https://github.com/dewaka/dewaka.github.io) with an SSL
+certificate from [letsencrypt](https://letsencrypt.org)<sup>[*](#no-affiliation)</sup>. I'm currently using the
+[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme.
+
+<a name="no-affiliation">*</a> No affiliation
