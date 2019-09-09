@@ -172,6 +172,7 @@ include:
   - .htaccess
   - _pages
   - .well-known
+  - _redirects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
