@@ -13,7 +13,7 @@ to write semi-regularly about random things which happens to interest me.
 
 ## Things I happen to be interested in
 
-- Programming languages
+- Programming
 - Reading
 - Running
 - Hiking
@@ -30,5 +30,11 @@ This blog is hosted through [netlify](https://www.netlify.com/)<sup>[*](#no-affi
 Github [repository](https://github.com/dewaka/dewaka.github.io) with an SSL
 certificate from [letsencrypt](https://letsencrypt.org)<sup>[*](#no-affiliation)</sup>. I'm currently using the
 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme.
+
+## Wiki
+
+I maintain a [personal wiki](https://wiki.dewaka.com) which is a combination of
+a brain dump of things I've learned, subjects I want to learn more about, and
+more.
 
 <a name="no-affiliation">*</a> No affiliation
