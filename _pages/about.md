@@ -9,7 +9,7 @@ layout: single
 ---
 
 This is the blog of [Chathura Colombage](https://linkedin.com/in/dewaka). I tend
-to write semi-regularly about random things which happens to interest me.
+to write semi-regularly about things which happens to interest me.
 
 ## Things I happen to be interested in
 
