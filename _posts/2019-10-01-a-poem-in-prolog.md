@@ -16,6 +16,11 @@ reading about _The Five Whys_<sup>[2](#five-whys)</sup> technique. The version
 of the poem reproduced in this post is attributed to Welsh poet George
 Herbert<sup>[3](#george-herbert)</sup>.
 
+This is a poem which illustrates The Five Whys analysis to find the
+cause-and-effect relationship underlying a problem in an easy to remember form.
+Since the verses are quite simple, it is the kind of poem one can easily encode
+in Prolog as logical rules.
+
 ### Poem
 
     For want of a nail the shoe is lost;
@@ -26,7 +31,6 @@ Herbert<sup>[3](#george-herbert)</sup>.
     And all for the want of a horseshoe nail.
 
     - George Herbert
-
     
 ## In Prolog
 
@@ -61,7 +65,7 @@ write_line(Item, Impacted) :-
     write("For want of a "), write(Item), write(" a "), write(Impacted), write(" was lost;"), nl.
 
 write_last_line(Item) :-
-    write("And all for the want of a "), write(Item).
+    write("And all for the want of a "), write(Item), write("."), nl.
 ```
 
 To get the full poem<sup>[4](#last-line)</sup>, we can ask Prolog - `write_poem(nail)`. Nice thing about
