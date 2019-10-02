@@ -116,6 +116,9 @@ to get a list of all the items impacted by a given item.
 
     ?- findall(X, item_impacted(nail, X), NailImpacted).
     NailImpacted = [shoe, horse, rider, battle, kingdom].
+    
+All code used for this post can be found here - 
+[For Want of a Nail.pl](https://gist.github.com/dewaka/36f24c3c1d527af30ae3944a994274c3).
 
 ## References
 
