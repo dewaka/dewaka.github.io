@@ -142,9 +142,10 @@ write_last_line(Item) :-
 ```
 
 Annotations are a set of predicates which matches a given item to a more
-embellished version. As another example, we can add 
-`annotated_name(rider, 'brave rider')`, and in that case the poem's last line would be "/And all for
-the want of a brave rider./", given that we start the poem from `rider`,
+embellished version. For example, we can add an embelishment for the
+`rider` with `annotated_name(rider, 'brave rider')`. With the updated database
+database, the last line of a poem starting with the rider would
+be - "_And all for the want of a brave rider_.", and so on.
 
 ## References
 
