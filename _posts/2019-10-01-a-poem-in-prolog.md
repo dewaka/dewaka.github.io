@@ -1,6 +1,6 @@
 ---
 title: "A Poem in Prolog"
-last_modified_at: 2019-10-02
+last_modified_at: 2019-10-03
 comments: true
 categories:
   - blog
@@ -119,6 +119,32 @@ to get a list of all the items impacted by a given item.
     
 All code used for this post can be found here - 
 [For Want of a Nail.pl](https://gist.github.com/dewaka/36f24c3c1d527af30ae3944a994274c3).
+
+## Footnote
+
+Annotated names, such as the `nail => horse-nail`, can be written with the use
+of another predicate as follows.
+
+```prolog
+annotated_name(nail,  horse-nail).
+annotated_name(X,  X).
+
+write_annotated(X) :-
+    annotated_name(X, Annotated), write(Annotated).
+```
+
+Then we can modify the `write_last_line` as follows to get a more faithful
+reproduction of the poem.
+
+```prolog
+write_last_line(Item) :-
+    write("And all for the want of a "), write_annotated(Item), write("."), nl.
+```
+
+Annotations are a set of predicates which matches a given item to a more
+embellished version. As another example, we can add 
+`annotated_name(rider, 'brave rider')`, and in that case the poem's last line would be "/And all for
+the want of a brave rider./", given that we start the poem from `rider`,
 
 ## References
 
