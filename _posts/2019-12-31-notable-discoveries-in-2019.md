@@ -100,12 +100,15 @@ the notable books from the ones I read this year.
 Following are some frequent listens this year which broke trends from past years
 but not necessarily new music for me,
 
-- [Tom Waits](https://www.last.fm/music/Tom+Waits)
-- [Brandi Carlile](https://www.last.fm/music/Brandi+Carlile)
+- [Tom Waits](https://www.last.fm/music/Tom+Waits) - Another late discovery for
+  me!
 - [Kate Bush](https://www.last.fm/music/Kate+Bush) - I think it is only this
   year that I've come to really appreciate her music. Big big fan of Hounds of
   Love album.
-- [Joni Mitchell](https://www.last.fm/music/Joni+Mitchell)
+- [Joni Mitchell](https://www.last.fm/music/Joni+Mitchell) - Cannot pick a
+  favourite album!
+- [Late For The Sky](https://www.last.fm/music/Jackson+Browne/Late+For+The+Sky) - A timeless
+  album.
 - [Gabriel Fauré](https://www.last.fm/music/Gabriel+Faur%C3%A9) - Cello Works<sup>[1](#faure-cello-spotify)</sup> 
   are my favourites thus far.
 - [Norman Fucking
@@ -117,6 +120,7 @@ but not necessarily new music for me,
   her through Norah Jones colloborations.
 - [Frank Ocean](https://www.last.fm/music/Frank+Ocean) - Blonde was one of the
   top listens for me this year. I'm 3 years late to the party!
+- [Brandi Carlile](https://www.last.fm/music/Brandi+Carlile)
 
 
 ## Videos
