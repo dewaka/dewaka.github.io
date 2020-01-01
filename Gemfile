@@ -1,10 +1,11 @@
 source "https://rubygems.org"
+gemspec
 
-gem 'jekyll', '~> 3.8.5'
+# gem 'jekyll', '~> 3.8.5'
 
-gem 'jemoji'
-gem 'jekyll-include-cache'
-gem "minimal-mistakes-jekyll"
+# gem 'jemoji'
+# gem 'jekyll-include-cache'
+# gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -15,5 +16,5 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-data"
 #
 # If you have any other plugins, put them here!
-group :jekyll_plugins do
-end
+# group :jekyll_plugins do
+# end
