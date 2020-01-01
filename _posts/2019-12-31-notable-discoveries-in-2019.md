@@ -8,6 +8,7 @@ tags:
   - books
   - poetry
   - music
+  - programming
 ---
 
 ## Notable Books
@@ -25,11 +26,13 @@ the notable books from the ones I read this year.
   and [Red Bird](https://www.goodreads.com/book/show/2282485.Red_Bird) contaied
   some of the favourite poems by her.
 - [Native Guard](https://www.goodreads.com/book/show/1857675.Native_Guard) -
-  Another stellar poetry collection which left a mark in mind.
+  Another stellar poetry collection which left a mark in my mind, especially to
+  learn about a dark period in American history, as in the titular poem of the
+  collection.
 - [Delights and
   Shadows](https://www.goodreads.com/book/show/239229.Delights_and_Shadows) -
-  One of the best books of poetry I've read this year. Definitely need to read a
-  couple of times more!
+  One of the best books of poetry I've read this year. Definitely worth reading
+  a couple of times more!
 - [The Selected Poems of Donald
   Hall](https://www.goodreads.com/book/show/23719372-the-selected-poems-of-donald-hall) -
   Some heartwrenching poems on loss. Poems on nature and the craft of poetry
