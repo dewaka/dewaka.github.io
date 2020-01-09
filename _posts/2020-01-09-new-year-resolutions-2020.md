@@ -89,7 +89,7 @@ would like to focus on this year,
     done before! However, I still hope to do at least 5 one day hikes this year.
     
 These goals are by no means exhaustive and I also might update the goals on
-areas I might want to focus on as the year progress.
+areas I would like to focus more on as the year progress.
 
 ### Footnotes
 
