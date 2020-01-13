@@ -1,6 +1,6 @@
 ---
 title: "New Year Resolutions (2020)"
-last_modified_at: 2020-01-09
+last_modified_at: 2020-01-13
 comments: true
 categories:
   - blog
@@ -12,7 +12,6 @@ tags:
   - running
   - writing
 ---
-
 
 I thought of putting a bit of pressure on myself by making a list of goals
 public. Some of the goals, such as the reading target, I've already managed to
@@ -76,6 +75,9 @@ would like to focus on this year,
     interest in. On this front it would be aspirational for me to finish with
     practical coding [Practical TLA+: Planning Driven
     Development](https://www.goodreads.com/book/show/42389860-practical-tla).
+- Other technical/maths books I'd like to go through this year,
+  - [A Programmer's Introduction to Mathematics by Jeremy Kun](https://www.goodreads.com/book/show/42970131-a-programmer-s-introduction-to-mathematics)
+  - [Elements of Programming by Alexander Stepanov](https://www.goodreads.com/book/show/6142482-elements-of-programming)
   
 ## Activities
 
@@ -90,6 +92,8 @@ would like to focus on this year,
     
 These goals are by no means exhaustive and I also might update the goals on
 areas I would like to focus more on as the year progress.
+
+I hope to update the progress on these goals in wiki [logs](https://wiki.dewaka.com/log/2020).
 
 ### Footnotes
 
