@@ -1,6 +1,6 @@
 ---
 title: "New Year Resolutions (2020)"
-last_modified_at: 2020-01-13
+last_modified_at: 2020-01-16
 comments: true
 categories:
   - blog
@@ -93,7 +93,9 @@ would like to focus on this year,
 These goals are by no means exhaustive and I also might update the goals on
 areas I would like to focus more on as the year progress.
 
-I hope to update the progress on these goals in wiki [logs](https://wiki.dewaka.com/log/2020).
+I hope to update the progress on these goals in wiki
+[logs](https://wiki.dewaka.com/log/2020) and new things I learn (and mistakes I
+make) in [til](https://wiki.dewaka.com/til/2020) entries.
 
 ### Footnotes
 
