@@ -17,7 +17,7 @@ It would be cumbersome to switch between different JDK versions manually, having
 to make sure to correctly setup `JAVA_HOME` when you switch between projects.
 [sdkman](https://sdkman.io/) is there to address this problem and the same class
 of problems for other types of development setups as well. These include Scala,
-Groovy, Gradle and a whole of others.
+Groovy, Gradle and a [lot more](#usage).
 
 ## Installation and setup
 
