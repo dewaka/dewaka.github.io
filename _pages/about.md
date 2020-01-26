@@ -47,4 +47,4 @@ My email can be found in the resume. You can also contact me via
 
 *****
 
-[^strava]: Although I track my runs and hikes on [Strava](https://www.strava.com/), they are set to private.
+[^strava]: I track runs and hikes on [Strava](https://www.strava.com/)
