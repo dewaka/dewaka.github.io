@@ -1,6 +1,6 @@
 ---
 title: "Semantic Patching with Coccinelle"
-last_modified_at: 2020-01-21
+last_modified_at: 2020-01-28
 comments: true
 categories:
   - blog
@@ -135,7 +135,35 @@ development in the last 10 years.
 Coccinelle4J[^coccinelle-java] is a project on applying the techniques learnt
 from a decade of research and engineering on transforming C programs, to Java
 programs. Even though syntactically C and Java belong to the same family,
-advanced type system brings its own challenges.
+advanced type system and object oriented nature of Java brings its own
+challenges.
+
+You might be wondering aren't IDEs like IntelliJ IDEA[^idea-refactoring] already
+pretty good at refactorings? But Coccinelle enables more complex refactorings
+since you even have support for scripting to make complex decisions whether to
+apply a patch or not, as in the following example from paper[^coccinelle-10-years].
+
+```diff
+@r@
+expression E; statement S;
+position p1,p2;
+@@
+if@p1 (E);
+	S@p2
+	
+@script:python@
+p1 << r.p1; p2 << r.p2;
+@@
+if (p1[0].col >= p2[0].col):
+ 	cocci.include_match(False)
+@@
+expression E; statement S;
+position r.p1;
+@@
+if@p1 (E)
+- ;
+S
+```
 
 I was quite impressed when I learned about Coccinelle and its impact on the
 evolution on the Linux kernel and I would like to end the this post with a quote
@@ -152,3 +180,4 @@ from a Linux kernel developer[^coccinelle-lwn],
 [^coccinelle-10-years]: [Coccinelle: 10 Years of Automated Evolution in the Linux Kernel](https://hal.inria.fr/hal-01853271/document)
 [^coccinelle-java]: [Semantic Patches for Java Program Transformation](https://drops.dagstuhl.de/opus/volltexte/2019/10814/pdf/LIPIcs-ECOOP-2019-22.pdf)
 [^coccinelle-lwn]: [Semantic patching with Coccinelle](https://lwn.net/Articles/315686/)
+[^idea-refactoring]: [IntelliJ IDEA Refactoring](https://www.jetbrains.com/help/idea/refactoring-source-code.html)
