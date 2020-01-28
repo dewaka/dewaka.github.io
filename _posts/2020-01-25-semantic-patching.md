@@ -166,7 +166,6 @@ if@p1 (E)
 S
 ```
 
-
 I was quite impressed when I learned about Coccinelle and its impact on the
 evolution on the Linux kernel and I would like to end the this post with a quote
 from a Linux kernel developer[^coccinelle-lwn],
