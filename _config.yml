@@ -78,7 +78,7 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
-bing_site_verification   :
+bing_site_verification   : "438F7EDD4A937F3A5DD77E2548F770C4"
 yandex_site_verification :
 naver_site_verification  :
 
