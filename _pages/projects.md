@@ -10,6 +10,7 @@ excerpt: "Personal projects"
 Under construction.
 
 - [Knowledge Wiki](https://wiki.dewaka.com)
+- [Rust Book](https://rust-book.dewaka.com)
 
 Public repositories can be found in,
 - [github.com/dewaka](https://github.com/dewaka) - this is where most publicly
