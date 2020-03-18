@@ -158,6 +158,9 @@ footer:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@dewaka"
+    - label: "BitCoin"
+      icon: "fab fa-btc"
+      url: "bitcoin:3Me3bMRWZmLDRmW8MVpiqkGaARPaAt7FBn"
 
 
 # Reading Files
