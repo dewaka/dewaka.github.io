@@ -17,7 +17,7 @@ from [Cal Newport](https://www.calnewport.com).
 
 ## What is digital minimalism?
 
-Cal Newport defines digital minimalism as follows[^cm-definition],
+Cal Newport defines digital minimalism as follows[^dm-definition],
 
 > A philosophy of technology use in which you focus your online time on a small
 > number of carefully selected and optimized activities that strongly support
