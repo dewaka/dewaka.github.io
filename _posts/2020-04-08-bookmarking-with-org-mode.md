@@ -177,7 +177,7 @@ I wanted to write more on making a case _for_ using offline bookmarks, but then
 I realised that the case for this is same as making a case for why I'm using
 org-mode for note taking - and there are many other posts around the internet
 making _that_ case. So, in the end I decided to keep the post very short just
-describe above capture template and very useful `org-cliplink` package.
+describing the capture template which I find very useful.
 
 ---------
 
