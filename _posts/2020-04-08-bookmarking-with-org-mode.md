@@ -12,43 +12,6 @@ tags:
 I thought about writing a short post on how I tend to capture bookmarks using
 org-mode[^org-mode] these days.
 
-<!-- But I thought why not make use of Emacs which I have open almost all the time -->
-<!-- while browsing. -->
-
-<!-- ## Offline bookmarks -->
-
-<!-- Main workflow of my approach is to use Emacs to capture bookmarks into a notes -->
-<!-- buffer in org-mode format. -->
-
-<!-- Why Emacs? In my case I have Emacs open all the time since it is my main tool -->
-<!-- for capturing notes. -->
-
-<!-- Why org-mode? Org mode is powerful note taking (and much more!) Emacs -->
-<!-- plugin which offers the kind simplicity of Markdown format coupled with very tight -->
-<!-- integration with Emacs ecosystem, empowering Emacs to be one of the most feature -->
-<!-- rich note taking applications. -->
-
-<!-- This is an alternative approach to using online bookmarking services, such as -->
-<!-- pinboard, or even using browser specific bookmarks. A couple of arguments for not using latter, -->
-<!-- - Browser bookmarks are specific to browsers and does not offer easy way to share bookmarks between browsers.  -->
-<!-- - Online bookmarking services, such as pinboard, are not guaranteed to survive -->
-<!--   long. Most people who were using delicious might not have thought of its -->
-<!--   possible demise when they were using it. But demise it did! -->
-
-<!-- There are a couple of advantages to offline bookmarking in a text format. Text -->
-<!-- is pretty much universal. -->
-
-<!-- In my personal experience, browser bookmarks are good for keeping only a handful -->
-<!-- of links to most used resources. They are _not_ a good way to store links and -->
-<!-- references for research topics because of rudimentary nature of bookmark -->
-<!-- managers. -->
-
-<!-- On the other hand, offline bookmarks allow you to add context and accompanying -->
-<!-- notes to a bookmarking link, which I find very valuable. Sometimes, I find -->
-<!-- peripheral things I learn from web resources are even more important than the -->
-<!-- links themselves. Org mode bookmarks, as captured via following template allows -->
-<!-- me to easily do just that. -->
-
 ## Capture template
 
 I have following org-capture template[^org-capture], defined in my Emacs configuration file
@@ -71,15 +34,20 @@ based on the Doom config[^doom],
 Most important time saver in this capture template is the use of
 `org-cliplink-capture` functionality which is provided by the `org-cliplink`[^org-cliplink] package.
 
-I tend to capture bookmarks on daily notes file, which I create per day. Another
-common approach is to use a `file+olp+datetree` type of capture for bookmarks.
+I tend to capture bookmarks on daily notes file, as can be seen from the above
+template. As an example, notes for today will be captured in a dedicated file
+`$ORG_DIR/2020/April_8.org`, where `$ORG_DIR` is the root directory for notes. 
 
-Following is how a sample bookmarked link looks like in a daily notes file.
+With this approach, bookmarks will be scattered on multiple note files. Using
+instead the `file+olp+datetree` capture method, one can maintain a single note
+dedicated to bookmarks, say `$ORG_DIR/Bookmarks.org`.
+
+Following is how a sample bookmarked link looks like in my current setup.
 
 ![org-mode bookmark example]({{ "/assets/postassets/org-bookmarks/org-bookmark-example.png" | absolute_url }}){: .align-center }
 
-Since bookmarks captured in this method are simply org-mode text node, all
-things you can with a text node can be done with your bookmark entries as well.
+Since bookmarks captured in this method are simply org-mode text nodes, you can
+embellish entries in the same way as any other org-mode entry node.
 
 Following are some of the advantages of bookmarking in this manner instead of
 using an online service, such as pinboard[^pinboard].
@@ -97,17 +65,6 @@ to do that, with Emacs, being a full fledged text editor. In fact, the capture
 template as I've defined above, gets me right into a prompt to add more
 details after inserting the link to the Emacs buffer.
 
-<!-- In my case, I capture bookmarks into a daily note file, which I keep as a -->
-<!-- journal. There are other approaches one can take, such as using a single -->
-<!-- bookmarks file. -->
-
-<!-- One can even download a copy of a web page, or a PDF version of it and _attach_ -->
-<!-- it to the org-mode buffer with the bookmark link. Org-mode file attachments work -->
-<!-- quite nicely for this use case. -->
-
-<!-- With org-mode notes, bookmarks is not just a link, but could be part of a -->
-<!-- overall note taking system. -->
-
 ### Link tags
 
 Org-mode supports tags[^org-tags] and they are quite powerful. It is pretty easy
@@ -121,9 +78,15 @@ Notes in org-mode is just plain text. Thus bookmark data is portable across
 operating systems with almost no risk of getting locked into a proprietary data
 format.
 
-<!-- My main point of this article is that you can treat online bookmarks as one -->
-<!-- element of your note capturing system. Org mode is just a very nice way to do -->
-<!-- that in a friction less way, provided that you are already using Emacs. -->
+### Fast local search
+
+Emacs can filter and find bookamrked links very quickly using tools such as
+helm[^helm] or ivy[^ivy]. Also one can classic POSIX tools such as `grep` and
+other text processing tools to locate and filter bookmarks.
+
+Going a one step further, one can setup indexed local search for org-mode note
+files for even faster and more precise search experience. I have used
+recoll[^recoll] on Linux for such a setup in the past.
 
 ## Limitations of this approach
 
@@ -137,39 +100,11 @@ the same as general limitations of org-mode ecosystem.
 - Separate synchronisation solution - I use Dropbox to sync notes between
   computers. With Emacs and org-mode, syncing is something separate you have to
   think about.
-
-<!-- In the past when I looked at using org-mode on the phone, none of the apps I -->
-<!-- tried could handle the large notes repository I had. In the end I decided use a -->
-<!-- hybrid approach when I'm on the phone - that is to dump interesting things which -->
-<!-- I might read on phone into a either Google Keep note to revisit and add as a -->
-<!-- bookmark later on. This works for me now because I do not tend to use the phone -->
-<!-- for any kind of serious reading or research. -->
-
-<!-- If it is something I would like to just read later, I might add that to Pocket -->
-<!-- reading queue, which integrates quite nicely with the Firefox mobile browser. -->
-
-<!-- Mobile story of org-mode leaves a lot to be desired. I have tried Org Mobile and -->
-<!-- Orgzly[^orgzly] in the past, but they weren't all that great from my experience. -->
-<!-- Probably I have too many notes for either of them to handle. -->
-
-<!-- When I want to bookmark something when browsing on the phone what I usually do -->
-<!-- is set myself a reminder as a Google Keep note or may be add that to Pocket. -->
-<!-- Then later I usually revisit them and add a bookmark manually if they seem to be -->
-<!-- useful enough. -->
-
-<!-- ## Alternatives -->
-
-<!-- I have heard good reviews on pinboard and as a paid service with a good -->
-<!-- reputation thus far, there's a good chance that it will continue to operate in -->
-<!-- the foreseeable future. -->
-
-
-<!-- Sites like pinboard makes things easy to share your bookmarks with others quite -->
-<!-- easy since everything is online. With an offline solution like the one I'm -->
-<!-- describing here, that's no longer possible. There are archival facilities in the -->
-<!-- paid tier which can be quite handy if you do not want to lose an important page -->
-<!-- later on even in the event the original page goes dark, which is not too -->
-<!-- uncommon an occurrence. -->
+- Lack of sharabilty - online bookmarking tools often provides a way to share
+  your bookmarks within the service itself, i.e. without the need to export to a
+  different format. But with the method I'm describing here, you cannot easily
+  share your bookmarks without exporting only parts of your notes you might want
+  to share.
 
 ------
 
@@ -197,10 +132,14 @@ describing the capture template which I find very useful.
 
 [^org-capture]: [Capture templates - Org mode manual](https://orgmode.org/manual/Capture-templates.html)
 
-<!-- [^orgzly]: [Orgzly](http://www.orgzly.com/) -->
-
 [^pinboard]: [Pinboard - Social bookmarking for Introverts](https://pinboard.in/)
 
 [^org-mobile]: In the past when I looked at using org-mode on the phone, none of
     the apps I tried could handle the large notes repository I had. Things might
     have gotten better in the meantime.
+
+[^helm]: [helm - Emacs incremental completion and selection narrowing framework](https://github.com/emacs-helm/helm)
+
+[^ivy]: [ivy - a generic completion frontend for Emacs](https://github.com/abo-abo/swiper)
+
+[^recoll]: [Recoll is a desktop full-text search tool](https://www.lesbonscomptes.com/recoll/)
