@@ -42,6 +42,15 @@ With this approach, bookmarks will be scattered on multiple note files. Using
 instead the `file+olp+datetree` capture method, one can maintain a single note
 dedicated to bookmarks, say `$ORG_DIR/Bookmarks.org`.
 
+I have set `F9` as the org-capture shortcut with following key binding,
+  
+  ```elisp
+  (global-set-key [f9] 'org-capture)
+  ```
+
+Thus, capturing a bookmark link into the notes buffer is just two key presses:
+`F9 + l`. 
+
 Following is how a sample bookmarked link looks like in my current setup.
 
 ![org-mode bookmark example]({{ "/assets/postassets/org-bookmarks/org-bookmark-example.png" | absolute_url }}){: .align-center }
