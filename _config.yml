@@ -19,7 +19,7 @@ locale                   : "en"
 title                    : "Chathura Colombage"
 title_separator          : "-"
 name                     : "Chathura Colombage"
-description              : "My personal blog with ramblings about technology, philosophy, and pretty much anything I find interesting."
+description              : "Chathura Colombage's personal blog with ramblings about programming, technology, philosophy, and pretty much anything I find interesting."
 url                      : "https://dewaka.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 subtitle                 : "" # site tagline that appears below site title in masthead
 baseurl                  : # the subpath of your site, e.g. "/blog"
