@@ -69,7 +69,9 @@ makes them local to the buffer.
 
 Following is an example local variable specification on a C++ file, customising
 the executable name, C++ version, etc. Make sure to quote compile command as a
-string.
+string. Emacs makes it pretty easy to add them as well - use
+`make-local-variable`[^make-local-variable] command and Emacs will insert the
+right type of commented variable declaration automatically!
 
 ```cpp
 // Local Variables:
@@ -96,4 +98,4 @@ xkcd[^butterfly]!
 [^file-variables]: [Emacs manual - Local Variables in Files](https://www.gnu.org/software/emacs/manual/html_node/emacs/File-Variables.html#File-Variables)
 [^dir-local]: [Emacs manual - Per-Directory Local Variables](https://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html#Directory-Variables)
 [^butterfly]: [Real Programmers](https://xkcd.com/378/)
-
+[^make-local-variable]: [Emacs manual - Creating and Deleting Buffer-Local Bindings](https://www.gnu.org/software/emacs/manual/html_node/elisp/Creating-Buffer_002dLocal.html)
