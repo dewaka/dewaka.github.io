@@ -85,7 +85,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "UA-145748044-1"
     anonymize_ip         : false # true, false (default)
@@ -96,7 +96,7 @@ author:
   name             : "Chathura Colombage"
   avatar           : "https://avatars2.githubusercontent.com/u/376621"
   bio              : "\"A journey of a thousand miles begins with a single step\"<br> - Tao Te Ching"
-  location         : 
+  location         :
   email            :
   links:
     - label: "Email"
