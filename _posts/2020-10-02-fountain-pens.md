@@ -8,13 +8,12 @@ tags:
   - writing
 ---
 
- I have always been a fan of fountain pens from my school days and throughout
- the university years. But recently I haven't been writing all that much and
- consequently my fountain pen usage went down.
+I have always been a fan of fountain pens from my school days and throughout
+the university years. But recently I haven't been writing all that much and
+consequently my fountain pen usage went down.
 
-However, discovering some really nice fountain pen inks recently rekindled my
-interest in fountain pen writing along with taking written notes. These inks are
-from [Rohrer and Klingner](https://www.rohrer-klingner.de/?page_id=1014&lang=en).
+However, discovering some really nice fountain pen [inks](#inks) recently rekindled my
+interest in fountain pen writing along with taking written notes.
 
 <!-- In typical fashion I have thought about the pros and cons of using fountain pens -->
 <!-- for writing and following are my personal reasoning on that. -->
@@ -130,11 +129,11 @@ definitely ticks those boxes in my experience as well.
 
 <!-- ## Writing samples -->
 
-After coming across [Rohrer and Klingner Cassia Ink
-Review](https://gentlemanreviewer.com/2020/02/rohrer-and-klingner-cassia/), I
-also got interested to try Rohrer and Klingner inks and following are the ones
-which I tried recently. All the inks below have really good flow and quick
-drying properties. As far as I can see, they are pretty easy to clean as well.
+After coming across [Rohrer and Klingner Cassia Ink Review](https://gentlemanreviewer.com/2020/02/rohrer-and-klingner-cassia/), I
+also got interested to try [Rohrer and Klingner](https://www.rohrer-klingner.de/?page_id=1014&lang=en) 
+inks and following are the ones which I tried recently. All the inks below have really
+good flow and quick drying properties. As far as I can see, they are pretty easy
+to clean as well.
 
 Note that my writing samples are only good as a crude approximation for what the
 inks look on Oxford notebook paper.
