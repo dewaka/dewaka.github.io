@@ -66,7 +66,7 @@ other fountain pen related things I tend to use or have used in the past.
 ## Paper
 
 Fountain pens demands a certain qualities from paper to have a good writing
-experience. When it comes to paper, getting high quality gsm paper is probably a
+experience. When it comes to paper, getting high quality gsm paper[^paper] is probably a
 safe start even if we ignore many other factors which influence the writing
 quality with fountain pens. Following are some of the popular notebooks among
 fountain pen users which I have also used in the past,
@@ -101,7 +101,7 @@ a nursery kid for learning new languages.
 
 Although I do not collect fountain pens as a hobby, I have bought more than a
 few fountain pens over the years. I try not to buy fountain pens which I would
-think twise to ink up and use on a daily basis. This heuristic has helped me
+think twice to ink up and use on a daily basis. This heuristic has helped me
 curb my enthusiasm for spending a lots of money on really expensive pens!
 
 Following are some of my favourite fountain pens[^affiliate-links] which are
@@ -182,3 +182,4 @@ I hope to explore more of the Rohrer and Klingner ink range in the future.
 --------
 
 [^affiliate-links]: These links are Amazon affiliate links.
+[^paper]: For a more in depth review of good paper for fountain pen writing, see [JetPens - The Best Fountain Pen Paper](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
