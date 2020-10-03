@@ -1,6 +1,6 @@
 ---
 title: "Reflections on Fountain Pens"
-last_modified_at: 2020-10-02
+last_modified_at: 2020-10-03
 comments: true
 categories:
   - blog
