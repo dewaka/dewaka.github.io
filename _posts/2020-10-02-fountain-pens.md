@@ -59,17 +59,23 @@ interest in fountain pen writing along with taking written notes.
 <!--   Rollerball](https://amzn.to/3n4Jo9X) which supposedly gets close to fountain -->
 <!--   pen writing experience, but I haven't had a chance to use them, yet. -->
 
-Since I liked these inks so much and given that I only learnt about them only
+Since I liked these inks so much and given that I learnt about them only
 recently, I thought of writing a short blog post on how they look on paper and
 other fountain pen related things I tend to use or have used in the past.
 
 ## Paper
 
-Following are popular among fountain pen users, and I have also used them in the
-past,
+Fountain pens demands a certain qualities from paper to have a good writing
+experience. When it comes to paper, getting high quality gsm paper is probably a
+safe start even if we ignore many other factors which influence the writing
+quality with fountain pens. Following are some of the popular notebooks among
+fountain pen users which I have also used in the past,
 - [LEUCHTTURM1917 Dotted Notebooks](https://amzn.to/340mA2F) - these notebooks
   are excellent for fountain pen writing as they do not bleed through even when
-  writing with the wettest fountain pens and ink combinations.
+  writing with the wettest fountain pens and ink combinations. These notebooks
+  comes with dotted paper as well, which are quite nice for writing with
+  fountain pens since it give more flexiliby to control your letter sizes to fit
+  your fancy and style.
 - [Moleskine Classic Ruled Paper Notebook](https://amzn.to/36c6zJu) - At least
   from my experience they were not as good as the Leuchtturm notebooks when it
   comes to properties such as bleedthrough.
