@@ -1,16 +1,17 @@
 ---
-title: "Fix for Chrome dithering with Nvidia on Linux"
+title: "Fix for Chrome dithering issue with Nvidia on Linux"
 last_modified_at: 2020-10-18
 comments: true
 categories:
   - blog
 tags:
   - linux
+  - chrome
 ---
 
 <!-- The problem -->
 
-## Dithering in Chrome after resuming
+<!-- ## Dithering in Chrome after resuming -->
 
 I have had this annoying problem with Chrome on latest Xubuntu LTS[^lts]
 installation on my Thinkpad T470p laptop where Chrome would get dithering
