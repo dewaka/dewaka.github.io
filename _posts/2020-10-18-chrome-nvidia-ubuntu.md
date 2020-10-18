@@ -9,9 +9,7 @@ tags:
   - chrome
 ---
 
-<!-- The problem -->
-
-<!-- ## Dithering in Chrome after resuming -->
+## Dithering in Chrome after resuming
 
 I have had this annoying problem with Chrome on latest Xubuntu LTS[^lts]
 installation on my Thinkpad T470p laptop where Chrome would get dithering
