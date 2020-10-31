@@ -35,7 +35,7 @@ As a fountain pen enthusiast, it was pretty interesting to learn about the
 history and modern incarnations of this particular type of inks.
 
 Both Leonardo's notebooks and Isaac Newton's notebooks seemed to have contain
-writing primaritly with iron gall inks, such as the following image
+writing primarily with iron gall inks, such as the following image
 from a Leonardo's notebooks[^leonardo]. It is these _"vintage"_ colouring which
 initially got me interesting to try iron gall inks as well.
 
