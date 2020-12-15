@@ -45,6 +45,11 @@ My email can be found in the resume. You can also contact me via
 [~dewaka/public-inbox](mailto:~dewaka/public-inbox@lists.sr.ht) on a 
 [public mailing list](https://lists.sr.ht/~dewaka/public-inbox).
 
+
+## Affiliate links
+
+Some of the posts in this blog can contain amazon affiliate links.
+
 *****
 
 [^strava]: I track runs and hikes on [Strava](https://www.strava.com/)
