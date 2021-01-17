@@ -56,10 +56,10 @@ tailored for the job to make it easier to follow.
 
 ### xargs
 
-- Use of `xargs` `-I` option for substitution
-- As in the following example the variable can be used for substituting output.
-  Variable can be any symbol, as `_` in the following example or `@` in the
-  above one.
+- Use of `xargs` `-I` option for substitution - as in the following example a
+  variable can be used for substituting output. The variable can be any symbol.
+  Following example, and its output should make it clear what's going on with
+  the command substitution.
 
   ```
   > echo hello | xargs -I_ echo _ _
