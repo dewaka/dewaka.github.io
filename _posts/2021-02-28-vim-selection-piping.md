@@ -115,6 +115,14 @@ list of items.
 
 --------------------
 
+In summary, I find Vim selection piping to be a powerful technique when the
+editing is of repetitive nature, but not too regular enough to write a macro. As
+long as writing a short inline Python script is faster than writing a separate
+script or a spreadsheet program when data is columnar, I find that Vim selection
+piping is powerful enough for a lot of tasks.
+
+--------------------
+
 [^evil-mode]: Emacs [evil-mode](https://github.com/emacs-evil/evil) also supports this feature!
 [^python-set-order]: Python set order can be implementation dependent.
 [^lang]: This is not specific to Python. Any programming language with good string manipulation functions would do equally well here. 
