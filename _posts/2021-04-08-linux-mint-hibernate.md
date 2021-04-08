@@ -9,7 +9,7 @@ tags:
 ---
 
 I have a Thinkpad T470p laptop with Linux Mint 20.1 (Xfce) installed for
-personal use and power manament is one of the things I dislike in otherwise a
+personal use and power management is one of the things I dislike in otherwise a
 pretty good laptop. Compared to my work laptop, a Macbook, the Thinkpad drains
 battery in sleep mode and I often find the battery completely drained if I
 happen to not to use the laptop for a couple of days.
@@ -17,13 +17,15 @@ happen to not to use the laptop for a couple of days.
 Since Linux Mint does not come with Hibernation option enabled out of the box,
 following are the steps I did to enable this option.
 
-## Have a swap partition as big as RAM
+## Swap partition
 
 I found it is easier to have the right size of swap partition at installation
 time rather than trying hibernation support based on a swap file. Following
-instructions were based on my setup with a swap partition.
+instructions are based on my setup with a swap partition. 
 
-## Install hiberation utilities
+I created a swap partition of 25G since I have 24G of RAM at install time.
+
+## Install hibernate utilities
 
 Install hibernate utils,
 
@@ -47,10 +49,11 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash resume=UUID=putYourSwapUUIDhere"
 
 Then update grub with command `sudo update-grub`.
 
-## Add to power menu
+## Power menu
 
-Now you should be able to hibernate with `systemctl hibernate`. However the
-power menu in Linux Mint doesn't show the Hibernate option.
+Now you should be able to hibernate with `systemctl hibernate`. 
+
+However the power menu in Linux Mint doesn't show the Hibernate option.
 
 For that I needed to add the following policy[^forum] to
 `/etc/polkit-1/localauthority/90-mandatory.d/enable-hibernate.pkla`.
@@ -67,8 +70,9 @@ the Mint menu.
 
 ----
 
-Hibenate has been working quite smoothly thus far in my laptop. I prefer to use
-this option when I know that I'm not likely to pick up the laptop in a while.
+Hibernation has been working quite smoothly thus far in my laptop. I prefer to
+use this option when I know that I'm not likely to pick up the laptop in a
+while.
 
 ----
 
