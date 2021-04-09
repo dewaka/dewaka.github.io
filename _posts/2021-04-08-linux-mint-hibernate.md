@@ -1,6 +1,6 @@
 ---
 title: "Linux Mint Hibernate"
-last_modified_at: 2021-04-07
+last_modified_at: 2021-04-08
 comments: true
 categories:
   - blog
