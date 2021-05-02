@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+to # Welcome Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -120,15 +120,18 @@ author:
     - label: "Goodreads"
       icon: "fab fa-fw fa-goodreads"
       url: "https://goodreads.com/dewaka"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://medium.com/@dewaka"
+    - label: "Newsletter"
+      icon: "fab fa-fw fa-substack"
+      url: "https://dewaka.substack.com"
+    # - label: "Medium"
+    #   icon: "fab fa-fw fa-medium"
+    #   url: "https://medium.com/@dewaka"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/cdewaka"
-    - label: "Keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/dewaka"
+    # - label: "Keybase"
+    #   icon: "fab fa-fw fa-keybase"
+    #   url: "https://keybase.io/dewaka"
 
 
 # Site Footer
@@ -155,12 +158,18 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/dewaka"
+    - label: "Newsletter"
+      icon: "fab fa-fw fa-substack"
+      url: "https://dewaka.substack.com"
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@dewaka"
-    - label: "BitCoin"
-      icon: "fab fa-btc"
-      url: "bitcoin:3Me3bMRWZmLDRmW8MVpiqkGaARPaAt7FBn"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/dewaka"
+    # - label: "BitCoin"
+    #   icon: "fab fa-btc"
+    #   url: "bitcoin:3Me3bMRWZmLDRmW8MVpiqkGaARPaAt7FBn"
 
 
 # Reading Files
