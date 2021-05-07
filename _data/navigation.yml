@@ -8,10 +8,12 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "📚 Wiki"
-    url: https://wiki.dewaka.com
   - title: "📝 Blog"
     url: /posts/
+  - title: "📰 Newsletter"
+    url: https://dewaka.substack.com
+  - title: "📚 Wiki"
+    url: https://wiki.dewaka.com
   - title: "🏆 Projects"
     url: /projects/
   # - title: "📚 Bookshelf"
