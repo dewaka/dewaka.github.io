@@ -12,10 +12,10 @@ main:
     url: /posts/
   - title: "📰 Newsletter"
     url: https://dewaka.substack.com
-  - title: "📚 Wiki"
-    url: https://wiki.dewaka.com
   - title: "🏆 Projects"
     url: /projects/
+  - title: "📚 Wiki"
+    url: https://wiki.dewaka.com
   # - title: "📚 Bookshelf"
   #   url: /bookshelf/
   - title: "ℹ️ About"
